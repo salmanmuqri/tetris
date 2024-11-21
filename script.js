@@ -379,11 +379,11 @@ function padMatrix(matrix) {
             }
         });
         // Event listeners for mobile controls
-document.getElementById('left-btn').addEventListener('click', () => playerMove(-1));
-document.getElementById('right-btn').addEventListener('click', () => playerMove(1));
-document.getElementById('down-btn').addEventListener('click', playerDrop);
-document.getElementById('rotate-btn').addEventListener('click', () => playerRotate(1));
-document.getElementById('hard-drop-btn').addEventListener('click', () => {
+        document.getElementById('left-btn').addEventListener('click', () => playerMove(-1));
+        document.getElementById('right-btn').addEventListener('click', () => playerMove(1));
+        document.getElementById('down-btn').addEventListener('click', playerDrop);
+        document.getElementById('rotate-btn').addEventListener('click', () => playerRotate(1));
+        document.getElementById('hard-drop-btn').addEventListener('click', () => {
     while (!collide(board, player)) {
         player.pos.y++;
     }
