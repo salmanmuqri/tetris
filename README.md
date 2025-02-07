@@ -37,7 +37,7 @@ Welcome to the classic **Tetris Game** implemented using HTML, CSS, and JavaScri
 ## 🚀 How to Run the Game
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/tetris-game.git
+   git clone https://github.com/salmanmuqri/tetris-game.git
    ```
 2. Open the `index.html` file in any modern browser.
 
